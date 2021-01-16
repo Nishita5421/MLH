@@ -1,0 +1,21 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "broweserify index.js -o bundle.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "body-parser-graphql": "^1.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.12",
+    "simple-peer": "^9.9.3",
+    "wrtc": "^0.4.7"
+  }
+}

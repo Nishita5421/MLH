@@ -1,0 +1,18 @@
+{
+  "name": "P2P",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "getusermedia": "^2.0.1",
+    "simple-peer": "^9.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "browserify index.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
